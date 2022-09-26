@@ -1,0 +1,68 @@
+.side-bar {
+  background-color: #393a44;
+  background-image: url("../Images/burger-pic.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height:100vh;
+  min-width: max-content;
+  font-size: 24px;
+}
+
+
+
+.dash-h1 {
+  font-family: 'Montserrat';
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.periodic {
+  font-size:36px;
+}
+
+.dashboard-header {
+  color:aliceblue;
+  background-image: url("../Images/burger-pic.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+}
+
+.css-test{
+  background-color:rgb(233, 236, 236);
+}
+
+.reservations-tables{
+  background-color: aliceblue;
+  border-radius: 7px;
+}
+
+.form-page {
+  background-color:rgb(233, 236, 236);
+  min-height: 100vmax;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+input {
+  width: 200px;
+  margin:3px;
+}
+
+.finish {
+  display: flex;
+  justify-content: space-between;
+}
+
+.finish-button {
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 600px) {
+  .side-bar {
+    min-height: fit-content;
+  }
+}
