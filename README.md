@@ -39,5 +39,3 @@ Additional Feature: Searching Reservations by Phone: Managers can also search fo
 
 
 
-
-See [../README.md](../README.md) for detailed instructions.
